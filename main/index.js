@@ -20,14 +20,6 @@ async function showPrompts() {
                     value: "SELECT_EMPLOYEES"
                 },
                 {
-                    name: "Get Employees By Department",
-                    value: "SELECT_EMPLOYEES_BY_DEPARTMENT"
-                },
-                {
-                    name: "Get Employees By Manager",
-                    value: "SELECT_EMPLOYEES_BY_MANAGER"
-                },
-                {
                     name: "Add Employee",
                     value: "INSERT_EMPLOYEE"
                 },
