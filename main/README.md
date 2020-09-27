@@ -1,13 +1,5 @@
 # EmployeeTrackerMySQL
 
-![project image](./assets/emp.png)
-
-![project image](./assets/emp1.png)
-
-![project image](./assets/emp2.png)
-
-![project image](./assets/emp3.png)
-
 ## Table of Contents
 * [Description](#description)
 * [Installation](#installation)
@@ -17,8 +9,17 @@
 * [Questions](#questions)
 
 ## Description
-To update and get information from a MySQL Database is often not straightforward. This app uses "Inquirer" to prompt the user and guide them step by step in fetching and inputting data to an employee database, so the user can keep track of Employees in an organization as it continues to evolve. 
+To update and get information from a MySQL Database is often not straightforward. 
+
+![project image](./assets/emp.png)
+
+This app uses "Inquirer" to prompt the user and guide them step by step in fetching and inputting data to an employee database, so the user can keep track of Employees in an organization as it continues to evolve. 
+
+![project image](./assets/emp3.png)
+
 "console.table" allows the user to see the database info right on the console log so the user doesn't have to switch screens.
+
+![project image](./assets/emp1.png)
 
 ## Installation Instructions
 One can clone the repository locally, run the sql files (located within the db folder) in MySQL to get information populated, and then using the terminal, change directories into the main folder, and run npm install. 
