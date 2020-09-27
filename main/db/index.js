@@ -35,6 +35,12 @@ class db {
             "SELECT * FROM role"
         )
     }
+
+    updateRole(employeeID) {
+        return this.connection.query(
+            "UPDATE employee SET role WHERE employee.id = ?", employeeID
+        )
+    }
     
     insertEmployee(employee) {
         return this.connection.query(

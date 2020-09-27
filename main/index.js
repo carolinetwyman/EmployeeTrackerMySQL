@@ -51,7 +51,6 @@ async function showPrompts() {
         }
     ]);
 
-    // Call the appropriate function depending on what the user chose
     switch (choice) {
         case "SELECT_EMPLOYEES":
             return getEmployees();
